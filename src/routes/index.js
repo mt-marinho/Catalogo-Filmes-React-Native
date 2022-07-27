@@ -14,11 +14,11 @@ export default function Routes(){
             screenOptions={{
                 headerShown: false,
                 drawerStyle:{
-                    backgroundColor: '#090a0e',
+                    backgroundColor: '#111111',
                     paddingTop: 20,  
                 },
-                drawerActiveBackgroundColor: '#004fff',
-                drawerActiveTintColor: '#fff',
+                drawerActiveBackgroundColor: '#00dbfc',
+                drawerActiveTintColor: '#111111',
                 drawerInactiveTintColor: '#fff'
             }}
         >
