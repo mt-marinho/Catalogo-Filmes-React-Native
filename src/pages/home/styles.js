@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.SafeAreaView`
-    background-color: #111111;
+    background-color: #0c0c0c;
     flex: 1;
+`;
+
+export const Head = styled.SafeAreaView`
+    height: 125px;
+    background-color: #000;
 `; 
 
 export const SearchContainer = styled.View`
@@ -15,14 +20,14 @@ export const SearchContainer = styled.View`
 `;
 
 export const Input = styled.TextInput`
-    background-color: rgba(255,255,255, 0.4);
+    background-color: rgba(255,255,255, 0.05);
     width: 82%;
     height: 45px;
     border-radius: 7px;
     padding: 8px 15px;
     font-size: 18px;
-    color: #ffffff;
-    border: 1px solid #ddd;
+    color: #ddd;
+    border: 1px solid #525252;
 `;
 
 export const SearchButton = styled.TouchableOpacity`
@@ -32,6 +37,7 @@ export const SearchButton = styled.TouchableOpacity`
     align-items: center;
     padding-bottom: 1px;
     justify-content: center;
-    border: 1px solid #00dbfc;
+    border: 1px solid #239db0;
+    background-color: rgba(002,217,250, 0.1);
     border-radius: 7px;
 `;

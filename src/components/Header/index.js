@@ -10,7 +10,7 @@ export default function Header({title}){
     return(
     <Container>
         <MenuButton onPress={() => navigation.openDrawer()}>
-            <Feather name='menu' size={28} color='#ddd'/>
+            <Feather name='menu' size={28} color='#6e6e6e'/>
         </MenuButton>
       
             <Logo source={require('../../assets/logo.png')}/>

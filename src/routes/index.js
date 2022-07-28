@@ -16,10 +16,12 @@ export default function Routes(){
                 drawerStyle:{
                     backgroundColor: '#111111',
                     paddingTop: 20,  
+                   
                 },
-                drawerActiveBackgroundColor: '#00dbfc',
+                drawerActiveBackgroundColor: '#239db0',
                 drawerActiveTintColor: '#111111',
-                drawerInactiveTintColor: '#fff'
+                drawerInactiveTintColor: '#fff',
+
             }}
         >
             <Drawer.Screen 
